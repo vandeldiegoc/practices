@@ -1,0 +1,58 @@
+.main-container {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    
+                            
+                            ;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "flex1 flex1 flex1 flex1"
+                         "flex2 flex2 flex2 flex2"
+                         ;
+    
+
+
+}
+
+.flex {
+    grid-area: flex1;
+
+}
+
+.flex2 {
+    display: flex;
+    grid-area: flex2;
+}
+
+.header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+body {
+    background-color: rgb(70, 68, 68);
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(45, 48, 75, 0.938);
+    border-radius: 10px;
+
+}
+
+.imgs {
+    width: 8%  ;
+    height: 300px;
+    overflow: hidden;
+    
+}
+
+.imges {
+    width: 100%;
+}
+
